@@ -26,3 +26,86 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.hangman-keyboard button {
+  width: 30px;
+  line-height: 23px;
+  background: #abc;
+  border: none;
+  border-radius: 4px;
+  color: #345;
+  margin: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hangman-keyboard button[disabled] {
+  opacity: 0.5;
+}
+
+.letter-slots {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.letter-slots .letter-slot {
+  display: inline-block;
+  border-bottom: 2px solid #345;
+  color: #900;
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  vertical-align: bottom;
+}
+
+.letter-slots .letter-slot.revealed {
+  color: #d8dde2;
+}
+
+body {
+  background: #FEF8C1;
+  font-family: Cabin;
+}
+
+.react-wrapper {
+  width: 416px;
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px auto;
+}
+
+.react-wrapper h1 {
+  margin: 10px;
+  text-align: center;
+}
+
+.react-wrapper .new-game {
+  background: #456;
+  font-size: 24px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  margin: 20px auto 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.react-wrapper .new-game.shown {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=main.css.map */
