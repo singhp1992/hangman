@@ -1,5 +1,4 @@
-import React from 'react';
-
+//import React from 'react';
 
 function wrongGuessCount(word, guesses) {
   let filteredArray = guesses.filter(function(letter) {
@@ -70,5 +69,3 @@ function next(word, guesses) {
 }
 
 next('hello', [])
-
-console.log('wtf')
