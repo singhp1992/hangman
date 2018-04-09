@@ -38,5 +38,3 @@ class Alphabet extends Component {
 }
 
 export default Alphabet;
-
- 

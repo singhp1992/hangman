@@ -5,8 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="Projects">
-        <h5> instructions: have fun! </h5>
-          <h5> goal: don't kill the man!</h5>
+        <h5> _ _ _ _ _ _</h5>
       </div>
     );
   }
