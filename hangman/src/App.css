@@ -75,7 +75,7 @@ body {
 }
 
 body {
-  background: #F3CDF7;
+  background: #f4b642;
   font-family: Cabin;
 }
 
@@ -124,6 +124,3 @@ body {
     vertical-align: bottom; }
     .letter-slots .letter-slot.revealed {
       color: #d8dde9; }
-
-
-/*# sourceMappingURL=main.css.map */
