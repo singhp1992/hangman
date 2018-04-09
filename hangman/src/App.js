@@ -12,6 +12,7 @@ class App extends Component {
         <h1>Hangman</h1>
         <Projects />
         <Alphabet />
+        <store />
       </div>
     );
   }
